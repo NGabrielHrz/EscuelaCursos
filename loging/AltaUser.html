@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALTA USUARIOS</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <div class="head">
+      <h1>PANEL ADMINISTRATIVO</h1>
+    </div>
+  </header>
+  <nav class="optMenu">
+    <a class="btn" href="PanelAdmin.html">>> Inicio</a>
+    <a class="btn" href="AddUser.html">>> Usuario</a>
+  </nav>
+  <article class="indexpage3">
+    <div>
+      <h2>ALTA USUARIOS</h2>
+      <hr class="divisor">
+      <nav>
+        <a href="AddUser.html" class="BTN2"><-REGRESAR</a>
+      </nav>
+      <form action="" method="post" class="Form2">
+        <input type="text" name="Usuario" id="UserName" required placeholder="Usuario" class="General">
+        <input type="password" name="Contraseña" id="Password" required placeholder="Contraseña" class="General">
+        <select name="Puesto" id="Rol"class="General">
+          <option value="">*Seleccione una opción*</option>
+          <option value="Administrador">Administrador</option>
+          <option value="Usuario">Usuario</option>
+        </select>
+        <button type="submit" class="BTN3">Login</button>
+      </form>
+    </div>
+  </article>
+</body>
+</html>
